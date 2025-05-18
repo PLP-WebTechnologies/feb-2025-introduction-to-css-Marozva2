@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Contacts Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="main-header">
+      <h1>Welcome to the Vintage Network</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="section">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Ordered List -->
+      <section class="section">
+        <h2>Things To Bring</h2>
+        <ol type="I">
+          <li>Ink and Quill</li>
+          <li>Leather Satchel</li>
+          <li>Wax Seal Stamp</li>
+          <li>Parchment Scroll</li>
+          <li>Cravat</li>
+        </ol>
+      </section>
+
+      <!-- External Image -->
+      <section class="section">
+        <h2>Gallery Highlight</h2>
+        <img
+          class="vintage-image"
+          src="https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg"
+          alt="Vintage Car"
+        />
+      </section>
+
+      <!-- Contacts Table -->
+      <section class="section">
+        <h2>Trusted Contacts</h2>
+        <table id="contacts-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>Mobile</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Elizabeth Bennet</td>
+              <td>Longbourn, Hertfordshire</td>
+              <td>+44 7000 123456</td>
+              <td>lizzy@example.com</td>
+            </tr>
+            <tr>
+              <td>Fitzwilliam Darcy</td>
+              <td>Pemberley, Derbyshire</td>
+              <td>+44 7000 654321</td>
+              <td>darcy@pride.co.uk</td>
+            </tr>
+            <tr>
+              <td>Emma Woodhouse</td>
+              <td>Hartfield, Highbury</td>
+              <td>+44 7000 112233</td>
+              <td>emma@matchmaker.uk</td>
+            </tr>
+            <tr>
+              <td>Captain Wentworth</td>
+              <td>Bath, Somerset</td>
+              <td>+44 7000 998877</td>
+              <td>wentworth@navy.org</td>
+            </tr>
+            <tr>
+              <td>Jane Fairfax</td>
+              <td>Highbury, Surrey</td>
+              <td>+44 7000 445566</td>
+              <td>fairjane@orphanage.net</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Registration Form -->
+      <section class="section">
+        <h2>Register Thyself</h2>
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter thy name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter thy email"
+            required
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter a secret code"
+            minlength="6"
+            required
+          />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required />
+
+          <label for="title">Title:</label>
+          <select id="title" name="title" required>
+            <option value="">Select a title</option>
+            <option value="Mr">Mr.</option>
+            <option value="Mrs">Mrs.</option>
+            <option value="Miss">Miss</option>
+            <option value="Dr">Dr.</option>
+          </select>
+
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male">Male</label>
+
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
+          <label for="female">Female</label>
+
+          <input type="radio" id="other" name="gender" value="other" required />
+          <label for="other">Other</label>
+
+          <p>Hobbies:</p>
+          <input type="checkbox" id="reading" name="hobbies" value="Reading" />
+          <label for="reading">Reading</label>
+
+          <input
+            type="checkbox"
+            id="traveling"
+            name="hobbies"
+            value="Traveling"
+          />
+          <label for="traveling">Traveling</label>
+
+          <input type="checkbox" id="archery" name="hobbies" value="Archery" />
+          <label for="archery">Archery</label>
+
+          <br /><br />
+          <button type="submit">Submit Registration</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Contact us at: vintage@regency.co.uk | +44 7000 987654</p>
+      <p>&copy; 2025 The Regency Circle</p>
+    </footer>
+  </body>
+</html>

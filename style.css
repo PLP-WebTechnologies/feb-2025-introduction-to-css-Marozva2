@@ -1,0 +1,106 @@
+/* GENERAL TYPOGRAPHY AND LAYOUT */
+body {
+  font-family: "Georgia", serif;
+  background-color: #f4f1ee;
+  color: #2c2c2c;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* HEADER STYLING USING ID */
+#main-header {
+  background-color: #3e2f1c;
+  color: #ffffff;
+  padding: 15px;
+  border-bottom: 4px solid #a1866f;
+  text-align: center;
+}
+
+/* CLASS SELECTOR FOR SECTIONS */
+.section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+/* STYLE IMAGE */
+.vintage-image {
+  width: 100%;
+  max-width: 600px;
+  border: 5px solid #a1866f;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* TABLE STYLING */
+#contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#contacts-table th,
+#contacts-table td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+  background-color: #fcfaf9;
+}
+
+#contacts-table thead {
+  background-color: #e0d6cc;
+  color: #000;
+}
+
+/* FORM STYLING */
+form {
+  font-family: "Palatino Linotype", serif;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form button {
+  background-color: #3e2f1c;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #5a4633;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 0.9em;
+  background-color: #eae4dd;
+  border-top: 2px solid #a1866f;
+}
